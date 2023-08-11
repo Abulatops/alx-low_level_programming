@@ -2,11 +2,11 @@
 /**
  * main -it prints output with put
  *
- * Return: always return (0)
+ * Return: (0)
  *
  */
 int main(void)
 (
-	puts("\"Prograng is like building a multilingual puzzle\n");
-	return (0);
+	puts("Programming is like building a multilingual puzzle")
+		return (0);
 )
