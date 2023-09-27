@@ -13,5 +13,5 @@ while (h)
 numb++;
 h = h->next;
 }
-return (num);
+return (numb);
 }
