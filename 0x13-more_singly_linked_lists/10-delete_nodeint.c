@@ -13,7 +13,7 @@ listint_t *current = NULL;
 unsigned int i = 0;
 if (*head == NULL)
 return (-1);
-f (index == 0)
+if (index == 0)
 {
 *head = (*head)->next;
 free(tem);
