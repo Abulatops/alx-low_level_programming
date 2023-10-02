@@ -12,5 +12,5 @@ int bitval;
 if (index > 63)
 return (-1);
 bitval = (n >> index) & 1;
-return (bit_val);
+return (bitval);
 }
