@@ -11,6 +11,7 @@ for (i = 63; i >= 0; i--)
 {
 current = n >> i;
 if (current & 1)
+{
 _putchar('1');
 count++;
 }
