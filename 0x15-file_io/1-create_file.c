@@ -17,10 +17,10 @@ if (text_content != NULL)
 for (len = 0; text_content[len];)
 len++;
 }
-fd = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
-w = write(fed, text_content, len);
+fed = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
+wri = write(fed, text_content, len);
 if (fed == -1 || wri == -1)
 return (-1);
-close(fd);
+close(fed);
 return (1);
 }
