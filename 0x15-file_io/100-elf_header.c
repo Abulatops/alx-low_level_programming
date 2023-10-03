@@ -27,7 +27,7 @@ int index;
 for (index = 0; index < 4; index++)
 {
 if (e_ident[index] != 127 &&
-ident[index] != 'E' &&
+e_ident[index] != 'E' &&
 e_ident[index] != 'L' &&
 e_ident[index] != 'F')
 {
